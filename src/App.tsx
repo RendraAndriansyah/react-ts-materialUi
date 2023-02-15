@@ -1,6 +1,11 @@
 import "./App.css";
-import MuiAutocomplete from "./components/MuiAutocomplete";
-import MuiRating from "./components/MuiRating";
+import { MuiAccordion } from "./components/MuiAccordion";
+import { MuiCard } from "./components/MuiCard";
+// import MuiLayout from "./components/MuiLayout";
+// import MuiBox from "./components/MuiBox";
+// import MuiStack from "./components/MuiStack";
+// import MuiAutocomplete from "./components/MuiAutocomplete";
+// import MuiRating from "./components/MuiRating";
 // import MuiTyphorapy from "./components/MuiTyphorapy";
 // import MuiButton from "./components/MuiButton";
 // import MuiTextField from "./components/MuiTextField";
@@ -20,7 +25,12 @@ function App() {
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
-      <MuiAutocomplete />
+      {/* <MuiAutocomplete /> */}
+      {/* <MuiBox /> */}
+      {/* <MuiStack /> */}
+      {/* <MuiLayout /> */}
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }
